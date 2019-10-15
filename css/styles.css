@@ -1,0 +1,199 @@
+header{
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+
+.section {
+    padding: 3rem;
+    margin-left: 50px;
+}
+
+footer {
+    border-top: 1px solid #ccc;
+    padding: 1rem;
+}
+
+.carousel {
+    width:90%;
+    height:90%;
+    /* text-align: center; */
+}
+
+.caroussel-img{
+    width: 1080px;
+    height: 620px;
+    opacity: 0.95;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color:rgb(12, 83, 165);
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: rgb(12, 83, 165);
+}
+
+.carousselText{
+    color:rgb(85, 85, 85);
+}
+.carousselText2{
+    color:rgb(243, 243, 243);
+}
+
+.nav-link{
+    color: white;
+    opacity: 0.9;
+    text-align: left;
+}
+.nav-icon{
+    color:white;
+    font-size:32px;
+}
+.fa-cog{
+    color: black;
+}
+.fa-cog:hover{
+    color: rgb(124, 146, 172);
+}
+.fa-sign-out{
+    color: black;
+}
+.fa-sign-out:hover{
+    color: rgb(124, 146, 172);
+}
+.fa-check-circle{
+    color:green;
+}
+.fa-exclamation-circle{
+    color:red;
+}
+.connect{
+    font-size:24px;
+}
+
+/* links */
+a:hover {
+    color: rgb(124, 146, 172);
+}
+a:active {
+    color: rgb(12, 83, 165);
+}
+.userMenuText{
+    color:black;
+    font-family:  Arial, sans-serif;
+}
+.userMenuText:hover {
+    color: rgb(124, 146, 172);
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:rgb(12, 83, 165);
+    border-color: rgb(12, 83, 165);
+}
+	
+.description {
+    text-indent:15px;
+}
+.login-icon{
+    color:black;
+    /* background-color: rgb(209, 209, 209); */
+    margin: float-left;
+    font-size:36px;
+}
+
+/* Forms */
+.custom-radios div {
+    display: inline-block;
+  }
+  .custom-radios input[type="radio"] {
+    display: none;
+  }
+  .custom-radios input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  .custom-radios input[type="radio"] + label span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid #FFFFFF;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 44px;
+  }
+  .custom-radios input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all .3s ease;
+  }
+  .custom-radios input[type="radio"]#color-5 + label span {
+    background-color: #2ecc71;
+  }
+  .custom-radios input[type="radio"]#color-4 + label span {
+    background-color: #3498db;
+  }
+  .custom-radios input[type="radio"]#color-3 + label span {
+    background-color: #f1c40f;
+  }
+  .custom-radios input[type="radio"]#color-2 + label span {
+    background-color: #e7723c;
+  }
+  .custom-radios input[type="radio"]#color-1 + label span {
+    background-color: #df1313;
+  }
+  .custom-radios input[type="radio"]:checked + label span img {
+    opacity: 1;
+  }
+
+  .agreeDisagree{
+      font-weight: bold;
+  }
+  .susValue{
+    font-style: italic;
+    margin-left:1px;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+
+/* Tab campaigns */
+.nav-campaign:enabled{
+    color: #444444;
+    border-color: rgb(220, 220, 220);
+}
+.nav-campaign:hover{
+    color: #2A2A2A;
+    border-color: rgb(159, 159, 159);
+    opacity: 0.7;
+
+}
+.nav-tabs .nav-link.active{
+    color: #2A2A2A;
+    font-weight: bold;
+    /* border-width: 2px; */
+    border-color: rgb(28, 28, 28);
+}
+.campaign-icon{
+    color: black;
+}
+  
